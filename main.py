@@ -76,7 +76,7 @@ async def my_event_handler(m):
 ╟ ╙ {bin_json['vendor']} - {bin_json['type']} - {bin_json['level']}
 ╟ ╙ {bin_json['bank']}
 ╟ ╙ {bin_json['country_iso']} - {bin_json['flag']}
-╟ [🝂] __𝙊𝙬𝙣𝙚𝙧𝙨 - ↯__: @DiegoAkk__
+╟ [🝂] __𝙊𝙬𝙣𝙚𝙧 - ↯__: @DiegoAkk__
 ╚═══════════════════════╝
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
