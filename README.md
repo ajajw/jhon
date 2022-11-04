@@ -1,3 +1,0 @@
-# aledi
-
-God
