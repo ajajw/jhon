@@ -13,7 +13,7 @@ import random
 from defs import getUrl, getcards, phone
 API_ID =  11849455
 API_HASH = '0956032efc5694f60156fe65f9c19764'
-SEND_CHAT = '@ScrapperPNK'
+SEND_CHAT = '@scrappertb'
 
 client = TelegramClient('session', API_ID, API_HASH)
 ccs = []
@@ -23,7 +23,7 @@ chats  = [
     '@LalaScrap',
     '@ScrapperLost',
     '@MacacosCC',
-    '@ScrapperRbt'   
+    '@LigthStormChat'   
 ]
 
 with open('cards.txt', 'r') as r:
@@ -70,7 +70,7 @@ async def my_event_handler(m):
 ╟ ╙ {bin_json['vendor']} - {bin_json['type']} - {bin_json['level']}
 ╟ ╙ {bin_json['bank']}
 ╟ ╙ {bin_json['country_iso']} - {bin_json['flag']}
-╟ ● __OWNER: @DiegoAkk__
+╟ ● __OWNERS: @DiegoAkk & @XerozSploitTae__
 ╚═══════════════════════╝
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
