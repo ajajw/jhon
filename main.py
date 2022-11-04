@@ -25,7 +25,8 @@ chats  = [
     '@DollyBinsChat',
     '@secretgroup01',
     '@CCsdiarioss',
-    '@savagegroupoficial
+    '@savagegroupoficial',
+    '@RemChatChk
     '@accerroreschecker',
     '@LigthStormChat'   
 ]
