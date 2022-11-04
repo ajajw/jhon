@@ -13,7 +13,7 @@ import random
 from defs import getUrl, getcards, phone
 API_ID =  11849455
 API_HASH = '0956032efc5694f60156fe65f9c19764'
-SEND_CHAT = '@BlacKBullChannel'
+SEND_CHAT = '@ScrapperPNK'
 
 client = TelegramClient('session', API_ID, API_HASH)
 ccs = []
@@ -62,7 +62,7 @@ async def my_event_handler(m):
     fullinfo = f"{cc}|{mes}|{ano}|{cvv}|{names.get_full_name()}|{addr['address1']}|{addr['city']}|{addr['state']}|{addr['postalCode']}|{phone()}|dob: {datetime.strftime(datetime(random.randint(1960, 2005), random.randint(1, 12),random.randint(1, 28), ), '%Y-%m-%d')}|United States Of America"
     text = f"""
 ╔═══════════════════════╗
-╟ ● **Scrapper** 
+╟ ● **Scrapper『𝙋𝙉𝙆』 ** 
 ╟═══════════════════════╝
 ╟ ● __CC__:
 ╟ ╙ `{cc}|{mes}|{ano}|{cvv}`
@@ -70,8 +70,7 @@ async def my_event_handler(m):
 ╟ ╙ {bin_json['vendor']} - {bin_json['type']} - {bin_json['level']}
 ╟ ╙ {bin_json['bank']}
 ╟ ╙ {bin_json['country_iso']} - {bin_json['flag']}
-╟ ● __FULL INFO__:
-╟ ╙ {fullinfo}
+╟ ● __OWNER: @DiegoAkk__
 ╚═══════════════════════╝
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
