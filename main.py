@@ -62,7 +62,7 @@ async def my_event_handler(m):
     fullinfo = f"{cc}|{mes}|{ano}|{cvv}|{names.get_full_name()}|{addr['address1']}|{addr['city']}|{addr['state']}|{addr['postalCode']}|{phone()}|dob: {datetime.strftime(datetime(random.randint(1960, 2005), random.randint(1, 12),random.randint(1, 28), ), '%Y-%m-%d')}|United States Of America"
     text = f"""
 ╔═══════════════════════╗
-╟ ● **Scrapper『𝙋𝙉𝙆』 ** 
+╟ ● **𝑺𝒄𝒓𝒂𝒑𝒑𝒆𝒓 𝑪𝑪 「𝚃𝙱」** 
 ╟═══════════════════════╝
 ╟ ● __CC__:
 ╟ ╙ `{cc}|{mes}|{ano}|{cvv}`
