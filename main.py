@@ -13,18 +13,17 @@ import random
 from defs import getUrl, getcards, phone
 API_ID =  11849455
 API_HASH = '0956032efc5694f60156fe65f9c19764'
-SEND_CHAT = '@znftibvg'
+SEND_CHAT = '@BlacKBullChannel'
 
 client = TelegramClient('session', API_ID, API_HASH)
 ccs = []
 
 chats  = [
     # '@fullcuentasgratis','
-    '@uchihaworld',
+    '@LalaScrap',
     '@ScrapperLost',
-    '@JLScrapper',
     '@MacacosCC',
-    '@LiveCCFam'   
+    '@ScrapperRbt'   
 ]
 
 with open('cards.txt', 'r') as r:
