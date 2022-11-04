@@ -11,9 +11,9 @@ import random
 
 
 from defs import getUrl, getcards, phone
-API_ID =  11849455
-API_HASH = '0956032efc5694f60156fe65f9c19764'
-SEND_CHAT = '@scrappertb'
+API_ID =  16650069
+API_HASH = 'a4373bc737d0c78881d48dd62eed7268'
+SEND_CHAT = '@zgwhvsfggg'
 
 client = TelegramClient('session', API_ID, API_HASH)
 ccs = []
@@ -21,9 +21,10 @@ ccs = []
 chats  = [
     # '@fullcuentasgratis','
     '@LalaScrap',
-    '@ScrapperLost',
+    '@SitesCCSChat',
     '@DollyBinsChat',
     '@secretgroup01',
+    '@latienditadenigthwing',
     '@CCsdiarioss',
     '@savagegroupoficial',
     '@RemChatChk',
@@ -75,7 +76,7 @@ async def my_event_handler(m):
 ╟ ╙ {bin_json['vendor']} - {bin_json['type']} - {bin_json['level']}
 ╟ ╙ {bin_json['bank']}
 ╟ ╙ {bin_json['country_iso']} - {bin_json['flag']}
-╟ [🝂] __𝙊𝙬𝙣𝙚𝙧𝙨 - ↯__: @SuperHaHa1 & @XerozSploitTae__
+╟ [🝂] __𝙊𝙬𝙣𝙚𝙧𝙨 - ↯__: @DiegoAkk__
 ╚═══════════════════════╝
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
