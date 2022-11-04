@@ -22,6 +22,10 @@ chats  = [
     # '@fullcuentasgratis','
     '@LalaScrap',
     '@ScrapperLost',
+    '@DollyBinsChat',
+    '@secretgroup01',
+    '@CCsdiarioss',
+    '@savagegroupoficial
     '@accerroreschecker',
     '@LigthStormChat'   
 ]
