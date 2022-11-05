@@ -29,6 +29,8 @@ chats  = [
     '@savagegroupoficial',
     '@RemChatChk',
     '@accerroreschecker',
+    '@Venexchk',
+    '@CHKBINS',
     '@LigthStormChat'   
 ]
 
