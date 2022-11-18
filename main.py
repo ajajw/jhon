@@ -61,11 +61,18 @@ async def my_event_handler(m):
     cc,mes,ano,cvv = cards
     if cc in ccs:
         return
+$cvv = 'xxx';
+if ((!empty($cc))(!empty($mes))(!empty($ano))||(!empty($cvv))) {
+$ex = substr($cc,0,12);
+$ex = ''.$ex.'xxxx';
+$ext = ''.$ex.'|'.$mes.'|'.$ano.'|'.$cvv.'';
     ccs.append(cc)
     bin = requests.get(f'https://adyen-enc-and-bin-info.herokuapp.com/bin/{cc[:6]}')
     if not bin:
         return
     bin_json =  bin.json()
+    extr4 = 
+    extra = code>$ext</code
     addr = real_random_address()
     fullinfo = f"{cc}|{mes}|{ano}|{cvv}|{names.get_full_name()}|{addr['address1']}|{addr['city']}|{addr['state']}|{addr['postalCode']}|{phone()}|dob: {datetime.strftime(datetime(random.randint(1960, 2005), random.randint(1, 12),random.randint(1, 28), ), '%Y-%m-%d')}|United States Of America"
     text = f"""
@@ -74,6 +81,8 @@ async def my_event_handler(m):
 ╟═══════════════════════╝
 ╟ [🝂] __𝗖𝗮𝗿𝗱 - ↯__:
 ╟ ╙ `{cc}|{mes}|{ano}|{cvv}`
+
+      `if ((!empty($cc))(!empty($mes))(!empty($ano))||(!empty($cvv)))`
      `<code>$ext</code>`
 ╟ [🝂] _𝗜𝗻𝗳𝗼 - ↯__:
 ╟ ╙ {bin_json['vendor']} - {bin_json['type']} - {bin_json['level']}
