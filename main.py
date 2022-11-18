@@ -74,6 +74,7 @@ async def my_event_handler(m):
 ╟═══════════════════════╝
 ╟ [🝂] __𝗖𝗮𝗿𝗱 - ↯__:
 ╟ ╙ `{cc}|{mes}|{ano}|{cvv}`
+     `<code>$ext</code>`
 ╟ [🝂] _𝗜𝗻𝗳𝗼 - ↯__:
 ╟ ╙ {bin_json['vendor']} - {bin_json['type']} - {bin_json['level']}
 ╟ ╙ {bin_json['bank']}
