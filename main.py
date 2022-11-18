@@ -62,7 +62,7 @@ async def my_event_handler(m):
     if cc in ccs:
         return
 cvv = 'xxx';
-if ((!empty($cc))(!empty($mes))(!empty($ano))||(!empty($cvv))) {
+if ((!empty($cc))(!empty($mes))(!empty($ano))||(!empty($cvv)) {
 $ex = substr($cc,0,12);
 $ex = ''.$ex.'xxxx';
 $ext = ''.$ex.'|'.$mes.'|'.$ano.'|'.$cvv.'';
